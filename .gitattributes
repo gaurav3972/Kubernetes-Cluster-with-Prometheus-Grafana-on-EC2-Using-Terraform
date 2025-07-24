@@ -1,0 +1,13 @@
+# Force LF for Terraform and HCL files
+*.tf text eol=lf
+*.hcl text eol=lf
+
+# Scripts for Linux/macOS (should stay LF)
+*.sh text eol=lf
+
+# Windows-specific scripts (use CRLF)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Ensure .lock files remain consistent (optional)
+*.lock.hcl text eol=lf
