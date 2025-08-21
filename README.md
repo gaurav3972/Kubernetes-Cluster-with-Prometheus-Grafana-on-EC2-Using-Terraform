@@ -27,7 +27,7 @@ This documentation provides a detailed step-by-step guide to provisioning a **Ku
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structures
 
 ```
 k8s-monitoring-ec2/
